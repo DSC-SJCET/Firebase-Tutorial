@@ -1,10 +1,14 @@
 # Firebase-Tutorial
 Firebase tutorial
 
+First import code in start 
+
+import { getFirestore, addDoc, collection, getDocs } from 'https://www.gstatic.com/firebasejs/9.12.1/firebase-firestore.js'
+
+
 ## Data sent
 
-const db = getFirestore(app);
-
+    const db = getFirestore(app);
     document.getElementById("submit-btn").onclick = async function (e) {
         
             e.preventDefault()
@@ -15,3 +19,18 @@ const db = getFirestore(app);
             console.log("Document written with ID: ", docRef.id);
             alert("Form submitted")
     };
+
+
+
+## Data Calling
+
+async function dataCall() {
+
+    const querySnapshot = await getDocs(collection(db, "users"));
+    querySnapshot.forEach((doc,i) => {
+
+        document.getElementById("tbody").insertRow(i).insertCell(i).innerHTML = doc.data().first_name
+        document.getElementById("tbody").insertRow( i).insertCell(i++).innerHTML = doc.data().last_name
+
+    });
+}
