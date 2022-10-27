@@ -51,9 +51,10 @@ Firebase tutorial
         });
         console.log("Document written with ID: ", docRef.id);
         alert("Form submitted")
+        location.reload()
     };
     
-![image](https://user-images.githubusercontent.com/70875875/198313338-7e9f81eb-8948-4254-a3de-0f6c8fe90fad.png)
+![image](https://user-images.githubusercontent.com/70875875/198335341-0208301a-2000-45b0-9854-bf76f7deecc9.png)
 
 #### step 6 : Paste the below code as in picture (note Figure 3:Data sending)
 
