@@ -3,7 +3,7 @@ Firebase tutorial
 
 First import code in start 
 
-import { getFirestore, addDoc, collection, getDocs } from 'https://www.gstatic.com/firebasejs/9.12.1/firebase-firestore.js'
+    import { getFirestore, addDoc, collection, getDocs } from 'https://www.gstatic.com/firebasejs/9.12.1/firebase-firestore.js'
 
 
 ## Data sent
