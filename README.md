@@ -23,8 +23,8 @@ import { getFirestore, addDoc, collection, getDocs } from 'https://www.gstatic.c
 
 
 ## Data Calling
-
-async function dataCall() {
+    document.getElementById("table").onload = () => { dataCall() }
+    async function dataCall() {
 
     const querySnapshot = await getDocs(collection(db, "users"));
     querySnapshot.forEach((doc,i) => {
