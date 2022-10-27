@@ -72,5 +72,5 @@ step 5 : Paste the below code as in picture (note Figure 3:Data sending)
 
 step 6 : Type somthing in website form and submit. Then refresh the website to see the change (note in video)
 
-![Alt Text](https://media.giphy.com/media/vFKqnCdLPNOKc/giphy.gif)
-![image](https://user-images.githubusercontent.com/70875875/198325079-9dff9fe3-36f9-4c4a-8ff7-3961ff0d6742.png)
+![Alt Text](https://im4.ezgif.com/tmp/ezgif-4-87a6b1b050.gif)
+
