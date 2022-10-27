@@ -1,9 +1,9 @@
 # Firebase-Tutorial
 Firebase tutorial
 
-### step 1 : Clone the code 
+#### step 1 : Clone the code 
 
-### step 2 : setup firebse and paste the configuration code (configration code example given below **Don't COPY THIS CONFIGRATION CODE IT'S UNIQUE FOR ALL**) on html file below body tag ( </body> )
+#### step 2 : setup firebse and paste the configuration code (configration code example given below **Don't COPY THIS CONFIGRATION CODE IT'S UNIQUE FOR ALL**) on html file below body tag ( </body> )
 
     <script type="module">
     // Import the functions you need from the SDKs you need
@@ -27,19 +27,19 @@ Firebase tutorial
     
     
     
-### step 3 : paste the below code in the script (consider the figure 1:import packages)
+#### step 3 : paste the below code in the script (consider the figure 1:import packages)
 
     import { getFirestore, addDoc, collection, getDocs } from 'https://www.gstatic.com/firebasejs/9.12.1/firebase-firestore.js'
     
 ![image](https://user-images.githubusercontent.com/70875875/198297933-c2294803-3b28-4567-bfba-483602ee3a15.png)
 
-### step 4 : Paste the below code for initialize database (note highlighted area Figure 3:Database initilizing)
+#### step 4 : Paste the below code for initialize database (note highlighted area Figure 3:Database initilizing)
 
      const db = getFirestore(app);
      
 ![image](https://user-images.githubusercontent.com/70875875/198299526-b6e3adaf-41ab-44c6-9cfa-212669a0557b.png)
      
-### step 5 : Paste the below code to data sent (like in figure 2:data sending)
+#### step 5 : Paste the below code to data sent (like in figure 2:data sending)
 
 ## Data send
 
@@ -55,7 +55,7 @@ Firebase tutorial
     
 ![image](https://user-images.githubusercontent.com/70875875/198313338-7e9f81eb-8948-4254-a3de-0f6c8fe90fad.png)
 
-### step 6 : Paste the below code as in picture (note Figure 3:Data sending)
+#### step 6 : Paste the below code as in picture (note Figure 3:Data sending)
 
 ## Data Calling
 
@@ -70,7 +70,7 @@ Firebase tutorial
 
 ![image](https://user-images.githubusercontent.com/70875875/198315253-60427304-4025-47ba-a3e7-f40742b0f44f.png)
 
-### step 7 : Type somthing in website form and submit. Then refresh the website to see the change (note in video)
+#### step 7 : Type somthing in website form and submit. Then refresh the website to see the change (note in video)
 
 ![Alt Text](https://im4.ezgif.com/tmp/ezgif-4-87a6b1b050.gif)
 
