@@ -75,3 +75,8 @@ Firebase tutorial
 
 ![Alt Text](https://im4.ezgif.com/tmp/ezgif-4-fa74bc9ec1.gif)
 
+##### After you submit, the firestore database will be like this ->
+
+![image](https://user-images.githubusercontent.com/70875875/198336447-a8311179-0bcb-4118-ac53-697d88236a50.png)
+
+
