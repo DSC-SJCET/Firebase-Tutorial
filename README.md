@@ -73,4 +73,4 @@ step 5 : Paste the below code as in picture (note Figure 3:Data sending)
 step 6 : Type somthing in website form and submit. Then refresh the website to see the change (note in video)
 
 
-[![Alternate Text]({https://firebase.google.com/images/social.png})]({https://drive.google.com/file/d/1vwiu2DTNKKI4yPL1jHmqnzp9lobN49M1/view?usp=sharing} "Link Title")
+[![Alternate Text]({https://firebase.google.com/images/social.png})]({https://www.youtube.com/shorts/At6POo0EDTQ} "Link Title")
