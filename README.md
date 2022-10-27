@@ -46,32 +46,30 @@ step 5 : Paste the below code to data sent (like in figure 2:data sending)
     document.getElementById("submit-btn").onclick = async function (e) {
         e.preventDefault()
         const docRef = await addDoc(collection(db, "data"), {
-            first_name: document.getElementById('Name').value,
-            last_name: document.getElementById('Msg').value
+            Name: document.getElementById('Name').value,
+            Message: document.getElementById('Msg').value
         });
         console.log("Document written with ID: ", docRef.id);
         alert("Form submitted")
     };
-
-![image](https://user-images.githubusercontent.com/70875875/198299971-23a3cf43-473d-40da-8870-2d8d5bf71f3b.png)
+    
+![image](https://user-images.githubusercontent.com/70875875/198313338-7e9f81eb-8948-4254-a3de-0f6c8fe90fad.png)
 
 step 5 : Paste the below code as in picture (note Figure 3:Data sending)
 
 ## Data Calling
-    document.getElementById("table").onload = () => { dataCall() }
-    async function dataCall() {
 
-    const querySnapshot = await getDocs(collection(db, "data"));
-    querySnapshot.forEach((doc,i) => {
+    window.onload = async function () {
+        const querySnapshot = await getDocs(collection(db, "data"));
+        querySnapshot.forEach((doc) => {
+            const row = document.getElementById("tbody").insertRow(0);
+            row.insertCell(0).innerHTML = doc.data().Name
+            row.insertCell(-1).innerHTML = doc.data().Message
+        });
+    }
 
-        document.getElementById("tbody").insertRow(i).insertCell(i).innerHTML = doc.data().first_name
-        document.getElementById("tbody").insertRow(i).insertCell(i++).innerHTML = doc.data().last_name
+![image](https://user-images.githubusercontent.com/70875875/198315253-60427304-4025-47ba-a3e7-f40742b0f44f.png)
 
-    });
-}
+step 6 : Type somthing in website form and submit. Then refresh the website to see the change (note in video)
 
-![image](https://user-images.githubusercontent.com/70875875/198301724-a9f7403b-b23f-4e75-90f4-95093348f7cb.png)
-
-
-step 6 : Type somthing in website form and submit.then goto /table.html to see data (note in video)
 
