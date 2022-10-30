@@ -74,6 +74,7 @@ Firebase tutorial
 #### step 7 : Type somthing in website form and submit. Then refresh the website to see the change (note in video)
 
 ![Alt Text](https://im4.ezgif.com/tmp/ezgif-4-fa74bc9ec1.gif)
+<!--[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/HyiNbqLOCQ8/0.jpg)](https://www.youtube.com/watch?v=HyiNbqLOCQ8)-->
 
 ##### After you submit, the firestore database will be like this ->
 
