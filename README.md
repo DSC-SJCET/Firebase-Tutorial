@@ -4,6 +4,7 @@ Firebase tutorial
 #### step 1 : Clone the code 
 
 #### step 2 : setup firebse and paste the configuration code (configration code example given below **Don't COPY THIS CONFIGRATION CODE IT'S UNIQUE FOR ALL**) on html file below body tag ( </body> )
+[DOCS](https://https://www.bit.ly/Firebasedoc)
 
     <script type="module">
     // Import the functions you need from the SDKs you need
