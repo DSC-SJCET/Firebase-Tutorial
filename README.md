@@ -74,7 +74,7 @@ Firebase tutorial
 
 #### step 7 : Type somthing in website form and submit. Then refresh the website to see the change (note in video)
 
-![ezgif com-gif-maker](https://user-images.githubusercontent.com/70875875/198913341-b3746b20-bea3-4169-b075-f552a8ae5706.gif)
+![ezgif com-gif-maker (1)](https://user-images.githubusercontent.com/70875875/198913787-1a1fa426-c474-4c0f-bcfa-ee75b9639ff3.gif)
 
 <!--[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/HyiNbqLOCQ8/0.jpg)](https://www.youtube.com/watch?v=HyiNbqLOCQ8)-->
 
