@@ -6,6 +6,7 @@ Firebase tutorial
 #### step 2 : setup firebse and paste the configuration code (configration code example given below **Don't COPY THIS CONFIGRATION CODE IT'S UNIQUE FOR ALL**) on html file below body tag (</.body>)
 [DOCS](https://https://www.bit.ly/Firebasedoc)
 
+
     <script type="module">
     // Import the functions you need from the SDKs you need
     import { initializeApp } from "https://www.gstatic.com/firebasejs/9.12.1/firebase-app.js";
@@ -30,7 +31,7 @@ Firebase tutorial
     
 #### step 3 : paste the below code in the script (consider the figure 1:import packages)
 
-    import { getFirestore, addDoc, collection, getDocs } from 'https://www.gstatic.com/firebasejs/9.12.1/firebase-firestore.js'
+    import { getFirestore, addDoc, collection, getDocs } from 'https://www.gstatic.com/firebasejs/9.13.0/firebase-firestore.js'
     
 ![image](https://user-images.githubusercontent.com/70875875/198297933-c2294803-3b28-4567-bfba-483602ee3a15.png)
 
